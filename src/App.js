@@ -18,9 +18,6 @@ const App = () => {
   }, [webcamRef]);
   console.log(url);
 
-  const onUserMedia = (e) => {
-    console.log(e);
-  };
 
   return (
     <div style={{ width: "50%", margin: "auto" }}>
