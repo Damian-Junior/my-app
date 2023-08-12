@@ -30,7 +30,7 @@ const App = () => {
           src={url}
           alt={"photo"}
           size={100}
-          style={{ marginLeft: 80, marginBottom: 20 }}
+          style={{ marginLeft: 200, marginBottom: 20 }}
         />
       )}
       <Form>
@@ -47,7 +47,6 @@ const App = () => {
             mirrored={true}
             screenshotFormat={"image/png"}
             videoConstraints={videoConstraints}
-            onUserMedia={onUserMedia}
           />
         </div>
       )}
@@ -56,7 +55,7 @@ const App = () => {
         style={{
           padding: 10,
           borderRadius: 10,
-          marginLeft: 90,
+          marginLeft: 200,
           marginTop: 20,
         }}
       >
